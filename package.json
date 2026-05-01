@@ -1,0 +1,15 @@
+{
+  "name": "wichxshop-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for WichXShop API to bypass Cloudflare challenges",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "vercel": "latest"
+  }
+}
